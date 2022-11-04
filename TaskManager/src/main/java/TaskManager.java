@@ -43,7 +43,6 @@ public class TaskManager {
         }
     }
 
-
     public static void printOptions() {
         System.out.println(pl.coderslab.ConsoleColors.BLUE);
         System.out.println("Please select an option: " + pl.coderslab.ConsoleColors.RESET);
@@ -52,7 +51,6 @@ public class TaskManager {
             System.out.println(list);
         }
     }
-
     public static void addTask() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please add task description");
@@ -129,6 +127,5 @@ public class TaskManager {
             e.printStackTrace();
         }
         return tab;
-
     }
 }
